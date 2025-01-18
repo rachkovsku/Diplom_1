@@ -26,13 +26,13 @@ public class BurgerTest {
     @Mock
     private Ingredient mockIngredient;
 
-    private float bunPrice;
-    private float ingredientPrice;
-    private float expectedPrice;
-    private String bunName;
-    private String ingredientName;
-    private IngredientType ingredientType;
-    private String expectedReceipt;
+    private final float bunPrice;
+    private final float ingredientPrice;
+    private final float expectedPrice;
+    private final String bunName;
+    private final String ingredientName;
+    private final IngredientType ingredientType;
+    private final String expectedReceipt;
 
     public BurgerTest(float bunPrice, float ingredientPrice, float expectedPrice,
                       String bunName, String ingredientName, IngredientType ingredientType, String expectedReceipt) {
