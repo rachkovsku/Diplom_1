@@ -14,7 +14,13 @@ public class BunTest {
             "White Bun, 5.5",
             "Black Bun, 7.0",
             "Sesame Bun, 8.5",
-            "Gluten-Free Bun, 9.5"
+            "Gluten-Free Bun, 9.5",
+            "White Bun, 0.0",
+            "Black Bun, -15.5",
+            "Black Bun, -15"
+
+
+
     })
     public void testBunProperties(String name, float price) {
         Bun bun = new Bun(name, price);
