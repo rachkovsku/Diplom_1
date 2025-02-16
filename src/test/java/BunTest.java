@@ -17,7 +17,10 @@ public class BunTest {
             "Gluten-Free Bun, 9.5",
             "White Bun, 0.0",
             "Black Bun, -15.5",
-            "Black Bun, -15"
+            "Black Bun, -15",
+            "Crazy Bun, 8",
+            "Red bun, 0",
+            " , 9"
 
 
 
